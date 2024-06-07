@@ -11,5 +11,19 @@
   "item.fixxinit_additions.raw_fixxnundrite": "Raw Fixxnundrite",
   "item.fixxinit_additions.raw_fixxstudrite": "Raw Fixxstudrite",
   "item.fixxinit_additions.raw_fixxundrite": "Raw Fixxundrite",
-  "item.fixxinit_additions.raw_fixxunmium": "Raw Fixxunmium"
+  "item.fixxinit_additions.raw_fixxunmium": "Raw Fixxunmium",
+
+  "block.fixxinit_additions.fixxaldrite_block": "Block of Fixxaldrite",
+  "block.fixxinit_additions.fixxandrite_block": "Block of Fixxandrite",
+  "block.fixxinit_additions.fixxnundrite_block": "Block of Fixxnundrite",
+  "block.fixxinit_additions.fixxstudrite_block": "Block of Fixxstudrite",
+  "block.fixxinit_additions.fixxundrite_block": "Block of Fixxundrite",
+  "block.fixxinit_additions.fixxunmium_block": "Block of Fixxunmium",
+
+  "block.fixxinit_additions.raw_fixxaldrite_block": "Block of Fixxaldrite",
+  "block.fixxinit_additions.raw_fixxandrite_block": "Block of Raw Fixxandrite",
+  "block.fixxinit_additions.raw_fixxnundrite_block": "Block of Raw Fixxnundrite",
+  "block.fixxinit_additions.raw_fixxstudrite_block": "Block of Raw Fixxstudrite",
+  "block.fixxinit_additions.raw_fixxundrite_block": "Block of Raw Fixxundrite",
+  "block.fixxinit_additions.raw_fixxunmium_block": "Block of Raw Fixxunmium"
 }
