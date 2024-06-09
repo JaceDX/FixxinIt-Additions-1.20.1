@@ -1,6 +1,7 @@
 package com.jacedx.fixxinitadditions;   // i don't like making the stupid textures for the stupid items and blocks ;(
 
 import com.jacedx.fixxinitadditions.block.ModBlocks;
+import com.jacedx.fixxinitadditions.item.ModCreativeModeTabs;
 import com.jacedx.fixxinitadditions.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class FixxinitAdditions {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

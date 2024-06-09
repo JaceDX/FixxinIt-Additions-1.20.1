@@ -57,6 +57,25 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
+    public static final RegistryObject<Block> DEEPSLATE_FIXXALDRITE_ORE = registerBlock("deepslate_fixxaldrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DEEPSLATE_FIXXANDRITE_ORE = registerBlock("deepslate_fixxandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DEEPSLATE_FIXXNUNDRITE_ORE = registerBlock("deepslate_fixxnundrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DEEPSLATE_FIXXSTUDRITE_ORE = registerBlock("deepslate_fixxstudrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> DEEPSLATE_FIXXUNDRITE_ORE = registerBlock("deepslate_fixxundrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> NETHER_FIXXANDRITE_ORE = registerBlock("nether_fixxandrite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+
 
 
 

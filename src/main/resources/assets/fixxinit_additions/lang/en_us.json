@@ -25,5 +25,7 @@
   "block.fixxinit_additions.raw_fixxnundrite_block": "Block of Raw Fixxnundrite",
   "block.fixxinit_additions.raw_fixxstudrite_block": "Block of Raw Fixxstudrite",
   "block.fixxinit_additions.raw_fixxundrite_block": "Block of Raw Fixxundrite",
-  "block.fixxinit_additions.raw_fixxunmium_block": "Block of Raw Fixxunmium"
+  "block.fixxinit_additions.raw_fixxunmium_block": "Block of Raw Fixxunmium",
+
+  "creativetab.fixxinitadditions_tab": "Fixxinit Additions"
 }
