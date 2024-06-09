@@ -27,5 +27,12 @@
   "block.fixxinit_additions.raw_fixxundrite_block": "Block of Raw Fixxundrite",
   "block.fixxinit_additions.raw_fixxunmium_block": "Block of Raw Fixxunmium",
 
+  "block.fixxinit_additions.deepslate_fixxaldrite_ore": "Deepslate Fixxaldrite Ore",
+  "block.fixxinit_additions.nether_fixxandrite_ore": "Nether Fixxandrite Ore",
+  "block.fixxinit_additions.deepslate_fixxnundrite_ore": "Deepslate Fixxnundrite Ore",
+  "block.fixxinit_additions.deepslate_fixxstudrite_ore": "Deepslate Fixxstudrite Ore",
+  "block.fixxinit_additions.deepslate_fixxundrite_ore": "Deepslate Fixxundrite Ore",
+
+
   "creativetab.fixxinitadditions_tab": "Fixxinit Additions"
 }

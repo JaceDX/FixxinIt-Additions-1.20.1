@@ -60,9 +60,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_FIXXALDRITE_ORE = registerBlock("deepslate_fixxaldrite_ore",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
-    public static final RegistryObject<Block> DEEPSLATE_FIXXANDRITE_ORE = registerBlock("deepslate_fixxandrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DEEPSLATE_FIXXNUNDRITE_ORE = registerBlock("deepslate_fixxnundrite_ore",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));

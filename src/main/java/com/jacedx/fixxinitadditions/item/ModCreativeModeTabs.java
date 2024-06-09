@@ -45,6 +45,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_FIXXSTUDRITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_FIXXUNDRITE_BLOCK.get());
                         output.accept(ModBlocks.RAW_FIXXUNMIUM_BLOCK.get());
+
+                        output.accept(ModBlocks.DEEPSLATE_FIXXALDRITE_ORE.get());
+                        output.accept(ModBlocks.NETHER_FIXXANDRITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_FIXXNUNDRITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_FIXXSTUDRITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_FIXXUNDRITE_ORE.get());
                     }).build());
 
 
