@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "fixxaldrite",
+  "ingredient": {
+    "item": "fixxinit_additions:raw_fixxaldrite"
+  },
+  "result": "fixxinit_additions:fixxaldrite_ingot"
+}

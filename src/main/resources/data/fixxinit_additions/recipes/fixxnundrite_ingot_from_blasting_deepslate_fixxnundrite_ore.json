@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "fixxnundrite",
+  "ingredient": {
+    "item": "fixxinit_additions:deepslate_fixxnundrite_ore"
+  },
+  "result": "fixxinit_additions:fixxnundrite_ingot"
+}

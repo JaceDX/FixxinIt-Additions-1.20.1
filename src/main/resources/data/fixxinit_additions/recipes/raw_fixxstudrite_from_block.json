@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fixxinit_additions:raw_fixxstudrite_block"
+    }
+  ],
+  "result": {
+    "item": "fixxinit_additions:raw_fixxstudrite",
+    "count": 9
+  }
+}

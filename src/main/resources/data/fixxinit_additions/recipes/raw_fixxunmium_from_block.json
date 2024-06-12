@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fixxinit_additions:raw_fixxunmium_block"
+    }
+  ],
+  "result": {
+    "item": "fixxinit_additions:raw_fixxunmium",
+    "count": 9
+  }
+}
