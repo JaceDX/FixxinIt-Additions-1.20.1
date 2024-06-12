@@ -33,6 +33,9 @@
   "block.fixxinit_additions.deepslate_fixxstudrite_ore": "Deepslate Fixxstudrite Ore",
   "block.fixxinit_additions.deepslate_fixxundrite_ore": "Deepslate Fixxundrite Ore",
 
+  "item.fixxinit_additions.fixxundrite_locator": "Fixxundrite Locator",
+
+  "item.fixxinit_additions:fixxundrite_locator.no_valuables": "No Ores Found",
 
   "creativetab.fixxinitadditions_tab": "Fixxinit Additions"
 }

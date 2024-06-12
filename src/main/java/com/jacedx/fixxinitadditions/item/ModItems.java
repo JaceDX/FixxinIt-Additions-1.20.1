@@ -1,6 +1,7 @@
 package com.jacedx.fixxinitadditions.item;
 
 import com.jacedx.fixxinitadditions.FixxinitAdditions;
+import com.jacedx.fixxinitadditions.item.custom.FixxundriteLocatorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -36,6 +37,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_FIXXUNMIUM = ITEMS.register("raw_fixxunmium",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FIXXUNDRITE_LOCATOR = ITEMS.register("fixxundrite_locator",
+            () -> new FixxundriteLocatorItem(new Item.Properties().durability(1024)));
 
 
     public static void register(IEventBus eventBus) {

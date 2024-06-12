@@ -32,6 +32,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_FIXXUNDRITE.get());
                         output.accept(ModItems.RAW_FIXXUNMIUM.get());
 
+                        output.accept(ModItems.FIXXUNDRITE_LOCATOR.get());
+
                         output.accept(ModBlocks.FIXXALDRITE_BLOCK.get());
                         output.accept(ModBlocks.FIXXANDRITE_BLOCK.get());
                         output.accept(ModBlocks.FIXXNUNDRITE_BLOCK.get());
