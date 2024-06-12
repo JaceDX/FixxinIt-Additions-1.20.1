@@ -2,9 +2,11 @@ package com.jacedx.fixxinitadditions.block;
 
 import com.jacedx.fixxinitadditions.FixxinitAdditions;
 import com.jacedx.fixxinitadditions.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -58,20 +60,20 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> DEEPSLATE_FIXXALDRITE_ORE = registerBlock("deepslate_fixxaldrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(7,10)));
     public static final RegistryObject<Block> DEEPSLATE_FIXXNUNDRITE_ORE = registerBlock("deepslate_fixxnundrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(7,10)));
     public static final RegistryObject<Block> DEEPSLATE_FIXXSTUDRITE_ORE = registerBlock("deepslate_fixxstudrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(7,10)));
     public static final RegistryObject<Block> DEEPSLATE_FIXXUNDRITE_ORE = registerBlock("deepslate_fixxundrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(7,10)));
     public static final RegistryObject<Block> NETHER_FIXXANDRITE_ORE = registerBlock("nether_fixxandrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.DIAMOND)
+                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(10,15)));
 
 
 

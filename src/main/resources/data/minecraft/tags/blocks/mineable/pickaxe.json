@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "fixxinit_additions:fixxaldrite_block",
+    "fixxinit_additions:fixxandrite_block",
+    "fixxinit_additions:fixxnundrite_block",
+    "fixxinit_additions:fixxstudrite_block",
+    "fixxinit_additions:fixxundrite_block",
+    "fixxinit_additions:fixxunmium_block",
+
+    "fixxinit_additions:raw_fixxaldrite_block",
+    "fixxinit_additions:raw_fixxandrite_block",
+    "fixxinit_additions:raw_fixxnundrite_block",
+    "fixxinit_additions:raw_fixxstudrite_block",
+    "fixxinit_additions:raw_fixxundrite_block",
+    "fixxinit_additions:raw_fixxunmium_block",
+
+    "fixxinit_additions:deepslate_fixxaldrite_ore",
+    "fixxinit_additions:nether_fixxandrite_ore",
+    "fixxinit_additions:deepslate_fixxnundrite_ore",
+    "fixxinit_additions:deepslate_fixxstudrite_ore",
+    "fixxinit_additions:deepslate_fixxundrite_ore"
+  ]
+}
