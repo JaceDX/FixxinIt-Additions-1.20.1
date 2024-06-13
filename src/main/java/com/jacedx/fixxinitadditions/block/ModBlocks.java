@@ -1,11 +1,13 @@
 package com.jacedx.fixxinitadditions.block;
 
 import com.jacedx.fixxinitadditions.FixxinitAdditions;
+import com.jacedx.fixxinitadditions.block.custom.FixxandriteOuterMachineHullBlock;
 import com.jacedx.fixxinitadditions.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -76,7 +78,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL), UniformInt.of(10,15)));
 
 
-
+    public static final RegistryObject<Block> FIXXANDRITE_OUTER_MACHINE_HULL = registerBlock("fixxandrite_outer_machine_hull",
+            () -> new FixxandriteOuterMachineHullBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

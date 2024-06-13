@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-  "all": "fixxinit_additions:block/deepslate_fixxnundrite_ore"
-  }
-}

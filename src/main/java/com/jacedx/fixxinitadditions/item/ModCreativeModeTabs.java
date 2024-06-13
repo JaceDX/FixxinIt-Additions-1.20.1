@@ -53,6 +53,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_FIXXNUNDRITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_FIXXSTUDRITE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_FIXXUNDRITE_ORE.get());
+
+                        output.accept(ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get());
                     }).build());
 
 
