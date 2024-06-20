@@ -39,6 +39,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get());
 
+        this.dropSelf(ModBlocks.FIXXALDRITE_STAIRS.get());
+        this.dropSelf(ModBlocks.FIXXANDRITE_STAIRS.get());
+        this.dropSelf(ModBlocks.FIXXNUNDRITE_STAIRS.get());
+        this.dropSelf(ModBlocks.FIXXSTUDRITE_STAIRS.get());
+        this.dropSelf(ModBlocks.FIXXUNDRITE_STAIRS.get());
+        this.dropSelf(ModBlocks.FIXXUNMIUM_STAIRS.get());
+
+        this.dropSelf(ModBlocks.FIXXALDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXALDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.FIXXANDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXANDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.FIXXNUNDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXNUNDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.FIXXSTUDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXSTUDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.FIXXUNDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXUNDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.FIXXUNMIUM_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.FIXXUNMIUM_BUTTON.get());
 
         this.add(ModBlocks.DEEPSLATE_FIXXALDRITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_FIXXALDRITE_ORE.get(), ModItems.RAW_FIXXALDRITE.get()));
@@ -54,6 +73,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.DEEPSLATE_FIXXUNDRITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_FIXXUNDRITE_ORE.get(), ModItems.RAW_FIXXUNDRITE.get()));
+
+        this.add(ModBlocks.FIXXALDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXALDRITE_SLAB.get()));
+        this.add(ModBlocks.FIXXANDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXANDRITE_SLAB.get()));
+        this.add(ModBlocks.FIXXNUNDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXNUNDRITE_SLAB.get()));
+        this.add(ModBlocks.FIXXSTUDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXSTUDRITE_SLAB.get()));
+        this.add(ModBlocks.FIXXUNDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXUNDRITE_SLAB.get()));
+        this.add(ModBlocks.FIXXUNMIUM_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.FIXXUNMIUM_SLAB.get()));
     }
 
 

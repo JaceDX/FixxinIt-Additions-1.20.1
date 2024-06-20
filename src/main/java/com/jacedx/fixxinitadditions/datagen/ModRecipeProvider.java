@@ -46,10 +46,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXALDRITE_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXALDRITE_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXALDRITE_INGOT.get(), 9)
                 .requires(ModBlocks.FIXXALDRITE_BLOCK.get())
                 .unlockedBy("has_fixxaldrite_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.FIXXALDRITE_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_FIXXALDRITE.get(), 9)
+                .requires(ModBlocks.RAW_FIXXALDRITE_BLOCK.get())
+                .unlockedBy("has_raw_fixxaldrite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.RAW_FIXXALDRITE_BLOCK.get()).build()))
                 .save(pWriter);
 
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXALDRITE.get(),
@@ -67,10 +73,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXANDRITE_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXANDRITE_INGOT.get(), 9)
                 .requires(ModBlocks.FIXXANDRITE_BLOCK.get())
                 .unlockedBy("has_fixxandrite_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.FIXXANDRITE_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_FIXXANDRITE.get(), 9)
+                .requires(ModBlocks.RAW_FIXXANDRITE_BLOCK.get())
+                .unlockedBy("has_raw_fixxandrite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.RAW_FIXXANDRITE_BLOCK.get()).build()))
                 .save(pWriter);
 
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXANDRITE.get(),
@@ -88,10 +100,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXNUNDRITE_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXNUNDRITE_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXNUNDRITE_INGOT.get(),9)
                 .requires(ModBlocks.FIXXNUNDRITE_BLOCK.get())
                 .unlockedBy("has_fixxnundrite_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.FIXXNUNDRITE_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_FIXXNUNDRITE.get(), 9)
+                .requires(ModBlocks.RAW_FIXXNUNDRITE_BLOCK.get())
+                .unlockedBy("has_raw_fixxnundrite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.RAW_FIXXNUNDRITE_BLOCK.get()).build()))
                 .save(pWriter);
 
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXNUNDRITE.get(),
@@ -109,10 +127,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXSTUDRITE_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXSTUDRITE_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXSTUDRITE_INGOT.get(), 9)
                 .requires(ModBlocks.FIXXSTUDRITE_BLOCK.get())
                 .unlockedBy("has_fixxstudrite_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.FIXXSTUDRITE_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_FIXXSTUDRITE.get(), 9)
+                .requires(ModBlocks.RAW_FIXXSTUDRITE_BLOCK.get())
+                .unlockedBy("has_raw_fixxstudrite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.RAW_FIXXSTUDRITE_BLOCK.get()).build()))
                 .save(pWriter);
 
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXSTUDRITE.get(),
@@ -130,10 +154,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXUNDRITE_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXUNDRITE_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXUNDRITE_INGOT.get(), 9)
                 .requires(ModBlocks.FIXXUNDRITE_BLOCK.get())
                 .unlockedBy("has_fixxundrite_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.FIXXUNDRITE_BLOCK.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_FIXXUNDRITE.get(), 9)
+                .requires(ModBlocks.RAW_FIXXUNDRITE_BLOCK.get())
+                .unlockedBy("has_raw_fixxundrite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.RAW_FIXXUNDRITE_BLOCK.get()).build()))
                 .save(pWriter);
 
         nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXUNDRITE.get(),
@@ -151,18 +181,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXUNMIUM_INGOT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIXXUNMIUM_INGOT.get(), 9)
                 .requires(ModBlocks.FIXXUNMIUM_BLOCK.get())
                 .unlockedBy("has_fixxunmium_block", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
                 .save(pWriter);
 
-        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXUNMIUM.get(), RecipeCategory.MISC, ModBlocks.RAW_FIXXUNMIUM_BLOCK.get());
+        
+
+        nineBlockStorageRecipes(pWriter, RecipeCategory.MISC, ModItems.RAW_FIXXUNMIUM.get(),
+                RecipeCategory.MISC, ModBlocks.RAW_FIXXUNMIUM_BLOCK.get());
         oreSmelting(pWriter, FIXXUNMIUM_SMELTABLES, RecipeCategory.MISC, ModItems.FIXXUNMIUM_INGOT.get(), 0.25f, 200, "fixxunmium");
         oreBlasting(pWriter, FIXXUNMIUM_SMELTABLES, RecipeCategory.MISC, ModItems.FIXXUNMIUM_INGOT.get(), 0.50f, 100, "fixxunmium");
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get(), 4)
                 .pattern("ACA")
                 .pattern("BBB")
                 .pattern("ACA")
@@ -174,7 +207,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAW_FIXXUNMIUM.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAW_FIXXUNMIUM.get(), 6)
                 .pattern("AGB")
                 .pattern("HCI")
                 .pattern("DEF")
@@ -189,6 +222,214 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('I', Items.EMERALD)
                 .unlockedBy("has_fixxandrite", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+
+
+
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXALDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXALDRITE_INGOT.get())
+                .unlockedBy("has_fixxaldrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXALDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXALDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXALDRITE_INGOT.get())
+                .unlockedBy("has_fixxaldrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXALDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXANDRITE_INGOT.get())
+                .unlockedBy("has_fixxandrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXANDRITE_INGOT.get())
+                .unlockedBy("has_fixxandrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXNUNDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXNUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxnundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXNUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXNUNDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXNUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxnundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXNUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXSTUDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXSTUDRITE_INGOT.get())
+                .unlockedBy("has_fixxstudrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXSTUDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXSTUDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXSTUDRITE_INGOT.get())
+                .unlockedBy("has_fixxstudrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXSTUDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNDRITE_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNDRITE_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNMIUM_STAIRS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModItems.FIXXUNMIUM_INGOT.get())
+                .unlockedBy("has_fixxunmium", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNMIUM_SLAB.get())
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXUNMIUM_INGOT.get())
+                .unlockedBy("has_fixxunmium", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
+                .save(pWriter);
+
+
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXALDRITE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXALDRITE_INGOT.get())
+                .unlockedBy("has_fixxaldrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXALDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXALDRITE_BUTTON.get())
+                .requires(ModItems.FIXXALDRITE_INGOT.get())
+                .unlockedBy("has_fixxaldrite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXALDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXANDRITE_INGOT.get())
+                .unlockedBy("has_fixxandrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXANDRITE_BUTTON.get())
+                .requires(ModItems.FIXXANDRITE_INGOT.get())
+                .unlockedBy("has_fixxandrite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXANDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXNUNDRITE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXNUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxnundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXNUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXNUNDRITE_BUTTON.get())
+                .requires(ModItems.FIXXNUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxnundrite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXNUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXSTUDRITE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXSTUDRITE_INGOT.get())
+                .unlockedBy("has_fixxstudrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXSTUDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXSTUDRITE_BUTTON.get())
+                .requires(ModItems.FIXXSTUDRITE_INGOT.get())
+                .unlockedBy("has_fixxstudrite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXSTUDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNDRITE_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxundrite", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXUNDRITE_BUTTON.get())
+                .requires(ModItems.FIXXUNDRITE_INGOT.get())
+                .unlockedBy("has_fixxundrite_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNDRITE_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FIXXUNMIUM_PRESSURE_PLATE.get())
+                .pattern("   ")
+                .pattern(" AA")
+                .pattern("   ")
+                .define('A', ModItems.FIXXUNMIUM_INGOT.get())
+                .unlockedBy("has_fixxunmium", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.FIXXUNMIUM_BUTTON.get())
+                .requires(ModItems.FIXXUNMIUM_INGOT.get())
+                .unlockedBy("has_fixxunmium_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.FIXXUNMIUM_INGOT.get()).build()))
                 .save(pWriter);
     }
 

@@ -37,7 +37,43 @@
 
   "block.fixxinit_additions.fixxandrite_outer_machine_hull": "Fixxandrite Outer Machine Hull",
 
+  "block.fixxinit_additions.fixxaldrite_stairs": "Fixxaldrite Stairs",
+  "block.fixxinit_additions.fixxaldrite_slab": "Fixxaldrite Slab",
+
+  "block.fixxinit_additions.fixxandrite_stairs": "Fixxandrite Stairs",
+  "block.fixxinit_additions.fixxandrite_slab": "Fixxandrite Slab",
+
+  "block.fixxinit_additions.fixxnundrite_stairs": "Fixxnundrite Stairs",
+  "block.fixxinit_additions.fixxnundrite_slab": "Fixxnundrite Slab",
+
+  "block.fixxinit_additions.fixxstudrite_stairs": "Fixxstudrite Stairs",
+  "block.fixxinit_additions.fixxstudrite_slab": "Fixxstudrite Slab",
+
+  "block.fixxinit_additions.fixxundrite_stairs": "Fixxundrite Stairs",
+  "block.fixxinit_additions.fixxundrite_slab": "Fixxundrite Slab",
+
+  "block.fixxinit_additions.fixxunmium_stairs": "Fixxunmium Stairs",
+  "block.fixxinit_additions.fixxunmium_slab": "Fixxunmium Slab",
+
   "item.fixxinit_additions:fixxundrite_locator.no_valuables": "No Ores Found",
+
+  "block.fixxinit_additions.fixxaldrite_pressure_plate": "Fixxaldrite Pressure Plate",
+  "block.fixxinit_additions.fixxaldrite_button": "Fixxaldrite Button",
+
+  "block.fixxinit_additions.fixxandrite_pressure_plate": "Fixxandrite Pressure Plate",
+  "block.fixxinit_additions.fixxandrite_button": "Fixxandrite Button",
+
+  "block.fixxinit_additions.fixxnundrite_pressure_plate": "Fixxnundrite Pressure Plate",
+  "block.fixxinit_additions.fixxnundrite_button": "Fixxnundrite Button",
+
+  "block.fixxinit_additions.fixxstudrite_pressure_plate": "Fixxstudrite Pressure Plate",
+  "block.fixxinit_additions.fixxstudrite_button": "Fixxstudrite Button",
+
+  "block.fixxinit_additions.fixxundrite_pressure_plate": "Fixxundrite Pressure Plate",
+  "block.fixxinit_additions.fixxundrite_button": "Fixxundrite Button",
+
+  "block.fixxinit_additions.fixxunmium_pressure_plate": "Fixxunmium Pressure Plate",
+  "block.fixxinit_additions.fixxunmium_button": "Fixxunmium Button",
 
   "creativetab.fixxinitadditions_tab": "Fixxinit Additions"
 }

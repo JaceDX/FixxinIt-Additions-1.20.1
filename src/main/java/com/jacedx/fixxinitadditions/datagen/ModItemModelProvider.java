@@ -40,9 +40,20 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.FIXXUNDRITE_LOCATOR);
 
+        buttonItem(ModBlocks.FIXXALDRITE_BUTTON, ModBlocks.FIXXALDRITE_BLOCK);
+        buttonItem(ModBlocks.FIXXANDRITE_BUTTON, ModBlocks.FIXXANDRITE_BLOCK);
+        buttonItem(ModBlocks.FIXXNUNDRITE_BUTTON, ModBlocks.FIXXNUNDRITE_BLOCK);
+        buttonItem(ModBlocks.FIXXSTUDRITE_BUTTON, ModBlocks.FIXXSTUDRITE_BLOCK);
+        buttonItem(ModBlocks.FIXXUNDRITE_BUTTON, ModBlocks.FIXXUNDRITE_BLOCK);
+        buttonItem(ModBlocks.FIXXUNMIUM_BUTTON, ModBlocks.FIXXUNMIUM_BLOCK);
 
         complexBlock(ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get());
     }
+    public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+                .texture("texture",  new ResourceLocation(FixxinitAdditions.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
     private ItemModelBuilder complexBlock(Block block) {
         return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(FixxinitAdditions.MOD_ID,
                 "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));

@@ -6,11 +6,9 @@ import com.jacedx.fixxinitadditions.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -81,6 +79,72 @@ public class ModBlocks {
     public static final RegistryObject<Block> FIXXANDRITE_OUTER_MACHINE_HULL = registerBlock("fixxandrite_outer_machine_hull",
             () -> new FixxandriteOuterMachineHullBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
+
+    public static final RegistryObject<Block> FIXXALDRITE_STAIRS = registerBlock("fixxaldrite_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXALDRITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXALDRITE_SLAB = registerBlock("fixxaldrite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXANDRITE_STAIRS = registerBlock("fixxandrite_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXANDRITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXANDRITE_SLAB = registerBlock("fixxandrite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXNUNDRITE_STAIRS = registerBlock("fixxnundrite_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXNUNDRITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXNUNDRITE_SLAB = registerBlock("fixxnundrite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXSTUDRITE_STAIRS = registerBlock("fixxstudrite_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXSTUDRITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXSTUDRITE_SLAB = registerBlock("fixxstudrite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXUNDRITE_STAIRS = registerBlock("fixxundrite_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXUNDRITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXUNDRITE_SLAB = registerBlock("fixxundrite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXUNMIUM_STAIRS = registerBlock("fixxunmium_stairs",
+            () -> new StairBlock(() -> ModBlocks.FIXXUNMIUM_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> FIXXUNMIUM_SLAB = registerBlock("fixxunmium_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FIXXALDRITE_PRESSURE_PLATE = registerBlock("fixxaldrite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXALDRITE_BUTTON = registerBlock("fixxaldrite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> FIXXANDRITE_PRESSURE_PLATE = registerBlock("fixxadrite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXANDRITE_BUTTON = registerBlock("fixxandrite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> FIXXNUNDRITE_PRESSURE_PLATE = registerBlock("fixxnundrite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXNUNDRITE_BUTTON = registerBlock("fixxnundrite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> FIXXSTUDRITE_PRESSURE_PLATE = registerBlock("fixxstudrite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXSTUDRITE_BUTTON = registerBlock("fixxstudrite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> FIXXUNDRITE_PRESSURE_PLATE = registerBlock("fixxundrite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXUNDRITE_BUTTON = registerBlock("fixxundrite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> FIXXUNMIUM_PRESSURE_PLATE = registerBlock("fixxunmium_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.METAL), BlockSetType.IRON));
+    public static final RegistryObject<Block> FIXXUNMIUM_BUTTON = registerBlock("fixxunmium_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.METAL), BlockSetType.IRON, 10, true));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

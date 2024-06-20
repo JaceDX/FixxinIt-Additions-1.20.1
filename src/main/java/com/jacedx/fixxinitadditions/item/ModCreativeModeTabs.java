@@ -55,6 +55,47 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_FIXXUNDRITE_ORE.get());
 
                         output.accept(ModBlocks.FIXXANDRITE_OUTER_MACHINE_HULL.get());
+
+                        output.accept(ModBlocks.FIXXALDRITE_STAIRS.get());
+                        output.accept(ModBlocks.FIXXALDRITE_SLAB.get());
+
+                        output.accept(ModBlocks.FIXXANDRITE_STAIRS.get());
+                        output.accept(ModBlocks.FIXXANDRITE_SLAB.get());
+
+                        output.accept(ModBlocks.FIXXNUNDRITE_STAIRS.get());
+                        output.accept(ModBlocks.FIXXNUNDRITE_SLAB.get());
+
+                        output.accept(ModBlocks.FIXXSTUDRITE_STAIRS.get());
+                        output.accept(ModBlocks.FIXXSTUDRITE_SLAB.get());
+
+                        output.accept(ModBlocks.FIXXUNDRITE_STAIRS.get());
+                        output.accept(ModBlocks.FIXXUNDRITE_SLAB.get());
+
+                        output.accept(ModBlocks.FIXXUNMIUM_STAIRS.get());
+                        output.accept(ModBlocks.FIXXUNMIUM_SLAB.get());
+
+
+
+
+
+                        output.accept(ModBlocks.FIXXALDRITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXALDRITE_BUTTON.get());
+
+                        output.accept(ModBlocks.FIXXANDRITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXANDRITE_BUTTON.get());
+
+                        output.accept(ModBlocks.FIXXNUNDRITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXNUNDRITE_BUTTON.get());
+
+                        output.accept(ModBlocks.FIXXSTUDRITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXSTUDRITE_BUTTON.get());
+
+                        output.accept(ModBlocks.FIXXUNDRITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXUNDRITE_BUTTON.get());
+
+                        output.accept(ModBlocks.FIXXUNMIUM_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.FIXXUNMIUM_BUTTON.get());
+
                     }).build());
 
 

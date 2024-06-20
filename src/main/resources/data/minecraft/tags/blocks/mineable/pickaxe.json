@@ -19,6 +19,34 @@
     "fixxinit_additions:nether_fixxandrite_ore",
     "fixxinit_additions:deepslate_fixxnundrite_ore",
     "fixxinit_additions:deepslate_fixxstudrite_ore",
-    "fixxinit_additions:deepslate_fixxundrite_ore"
+    "fixxinit_additions:deepslate_fixxundrite_ore",
+
+    "fixxinit_additions:fixxaldrite_stairs",
+    "fixxinit_additions:fixxandrite_stairs",
+    "fixxinit_additions:fixxnundrite_stairs",
+    "fixxinit_additions:fixxstudrite_stairs",
+    "fixxinit_additions:fixxundrite_stairs",
+    "fixxinit_additions:fixxunmium_stairs",
+
+    "fixxinit_additions:fixxaldrite_slab",
+    "fixxinit_additions:fixxandrite_slab",
+    "fixxinit_additions:fixxnundrite_slab",
+    "fixxinit_additions:fixxstudrite_slab",
+    "fixxinit_additions:fixxundrite_slab",
+    "fixxinit_additions:fixxunmium_slab",
+
+    "fixxinit_additions:fixxaldrite_pressure_plate",
+    "fixxinit_additions:fixxandrite_pressure_plate",
+    "fixxinit_additions:fixxnundrite_pressure_plate",
+    "fixxinit_additions:fixxstudrite_pressure_plate",
+    "fixxinit_additions:fixxundrite_pressure_plate",
+    "fixxinit_additions:fixxunmium_pressure_plate",
+
+    "fixxinit_additions:fixxaldrite_button",
+    "fixxinit_additions:fixxandrite_button",
+    "fixxinit_additions:fixxnundrite_button",
+    "fixxinit_additions:fixxstudrite_button",
+    "fixxinit_additions:fixxundrite_button",
+    "fixxinit_additions:fixxunmium_button"
   ]
 }
