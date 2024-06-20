@@ -4,3 +4,4 @@
 
 Fixxinit Additions is a mod made for a 1.20.1 modpack called Fixxinit. 
 This mod adds 6 different ores and ingots into the game. This mod adds armor, paxels, tools, and paintings.
+Fixxinit Additions was also made as an addon for multiple mods like Gregtech CeU Modern, and Thermal Expansion.
